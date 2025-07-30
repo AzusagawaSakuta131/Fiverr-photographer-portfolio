@@ -46,7 +46,7 @@ body {
 
 
 .hero {
-  background: url('./hero.jpg') center/cover no-repeat;
+  background: url('/hero.jpg') center/cover no-repeat;
   height: 80vh;
   display: flex;
   align-items: center;
