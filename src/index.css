@@ -4,6 +4,16 @@ body {
   background: #f5f5f5;
   color: #333;
 }
+/* 针对整个页面 */
+html {
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
 
 .navbar {
   display: flex;
